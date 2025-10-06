@@ -1,5 +1,8 @@
-def factorial(n):
-    return n * (factorial(n - 1) if n > 1 else 1)
+n = int(input())
+i = 0
+while True:
+    if i >= n:
+        break
+    print(i)
+    i+=1
 
-
-print(factorial(4))
